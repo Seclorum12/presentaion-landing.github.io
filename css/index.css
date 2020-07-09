@@ -441,7 +441,7 @@ section#first-block .elipse-backgrouund {
   left: 3rem;
   width: 10rem;
   height: 10rem;
-  background-image: url("/images/ellipse.png");
+  background-image: url("../images/ellipse.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -453,7 +453,7 @@ section#first-block .icons-backround {
   z-index: -1;
   width: 12rem;
   height: 12rem;
-  background-image: url("/images/smart_home.png");
+  background-image: url("../images/smart_home.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -465,7 +465,7 @@ section#first-block .icons-backround {
     width: 40%;
     height: 100%;
     background-position: center;
-    background-image: url("/images/smart_home-for-tablet-landscape-up.png");
+    background-image: url("../images/smart_home-for-tablet-landscape-up.png");
   }
 }
 
@@ -485,7 +485,7 @@ section#second-block ul.cards {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-      grid-template-areas: "h3" "card1" "card2" "card3";
+      grid-template-areas: "h3" "card1" "card2" "card3";
   grid-row-gap: 4rem;
 }
 
@@ -495,7 +495,7 @@ section#second-block ul.cards {
         grid-template-columns: 1fr 1fr;
     -webkit-column-gap: 3rem;
             column-gap: 3rem;
-        grid-template-areas: "h3 card1" "card2 card1" "card2 card3" ". card3";
+        grid-template-areas: "h3 card1" "card2 card1" "card2 card3" ". card3";
   }
 }
 
@@ -562,7 +562,7 @@ section#second-block ul.cards .card1 {
 }
 
 section#second-block ul.cards .card1 .background-image {
-  background-image: url("/images/smart_home_with_guy.png");
+  background-image: url("../images/smart_home_with_guy.png");
 }
 
 section#second-block ul.cards .card2 {
@@ -579,7 +579,7 @@ section#second-block ul.cards .card2 {
 }
 
 section#second-block ul.cards .card2 .background-image {
-  background-image: url("/images/man-background.png");
+  background-image: url("../images/man-background.png");
 }
 
 section#second-block ul.cards .card3 {
@@ -589,7 +589,7 @@ section#second-block ul.cards .card3 {
 }
 
 section#second-block ul.cards .card3 .background-image {
-  background-image: url("/images/woomen-background.png");
+  background-image: url("../images/woomen-background.png");
 }
 
 section#third-block {
@@ -601,14 +601,14 @@ section#third-block {
       grid-template-columns: 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-      grid-template-areas: "h3" "p" "hib" "mab" "cab";
+      grid-template-areas: "h3" "p" "hib" "mab" "cab";
 }
 
 @media (min-width: 900px) {
   section#third-block {
     -ms-grid-columns: 1fr 0.2fr 1fr;
         grid-template-columns: 1fr 0.2fr 1fr;
-        grid-template-areas: "h3 p p" "hib hib hib" "mab . cab";
+        grid-template-areas: "h3 p p" "hib hib hib" "mab . cab";
   }
 }
 
@@ -666,7 +666,7 @@ section#third-block .home-installation-block {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: hib;
-  background-image: linear-gradient(89.97deg, #1f3f68 3.62%, rgba(31, 63, 104, 0.37) 97.78%), url("/images/appartment.jpg");
+  background-image: linear-gradient(89.97deg, #1f3f68 3.62%, rgba(31, 63, 104, 0.37) 97.78%), url("../images/appartment.jpg");
 }
 
 section#third-block .home-installation-block::after {
@@ -676,7 +676,7 @@ section#third-block .home-installation-block::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/images/group.png");
+  background-image: url("../images/group.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -685,14 +685,14 @@ section#third-block .mob-app-block {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   grid-area: mab;
-  background-image: linear-gradient(309.18deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%), url("/images/mobile.png");
+  background-image: linear-gradient(309.18deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%), url("../images/mobile.png");
 }
 
 section#third-block .car-app-block {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: cab;
-  background-image: linear-gradient(306.81deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%), url("/images/car.png");
+  background-image: linear-gradient(306.81deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%), url("../images/car.png");
 }
 
 section#forth-block {
@@ -714,14 +714,14 @@ section#forth-block .first-part .container {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-      grid-template-areas: "h3" "p" "ul";
+      grid-template-areas: "h3" "p" "ul";
 }
 
 @media (min-width: 900px) {
   section#forth-block .first-part .container {
     -ms-grid-columns: 0.3fr 1fr;
         grid-template-columns: 0.3fr 1fr;
-        grid-template-areas: "h3 p" "ul ul";
+        grid-template-areas: "h3 p" "ul ul";
   }
 }
 
@@ -734,6 +734,9 @@ section#forth-block .first-part .container {
 }
 
 section#forth-block .first-part h3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: h3;
   font-size: 1.3rem;
 }
 
@@ -806,14 +809,14 @@ section#forth-block .secont-part-inner .container {
       grid-template-columns: 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-      grid-template-areas: "h3" "p" "a";
+      grid-template-areas: "h3" "p" "a";
 }
 
 @media (min-width: 900px) {
   section#forth-block .secont-part-inner .container {
     -ms-grid-columns: 0.7fr 0.3fr;
         grid-template-columns: 0.7fr 0.3fr;
-        grid-template-areas: "h3 a" "p a";
+        grid-template-areas: "h3 a" "p a";
   }
 }
 
